@@ -20,7 +20,7 @@ app.use(expressLayoutes);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'))
 app.get('/', function(req, res){
-  res.redirect('/addCustomer');
+  res.redirect('index');
 });
 app.use(express.urlencoded({extended:true}));
 app.use(cors());
