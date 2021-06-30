@@ -22,7 +22,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(cors());
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
-
+app.get('/', (req, res) => res.render('./views/addCustomer'))
 app.use(customerRoutes.routes);
   app.use(expressLayoutes);
   app.use(customerRoutes.routes);
