@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const error = require('./middleware/error');
 const winston = require('winston')
 const customerRoutes = require('./routes/customer-routes');
-const PORT = process.env.PORT || 5000
+//const PORT = process.env.PORT || 5000
 
 app = express()
 require('Procfile')();
@@ -28,5 +28,7 @@ app.get('/', function(req, res){
   res.redirect('index');
 });
 //app.use(express.urlencoded({extended:true}));
-
-  app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
+app.listen(process.env.PORT || "5000", () => {
+  console.log(`"Running on ${process.env.PORT || "5000"}!`)
+})
+ // app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
