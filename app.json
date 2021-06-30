@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "Start on Heroku: Node.js",
   "description": "A barebones Node.js app using Express 4",
   "repository": "https://github.com/elsesu/elsesu",
   "logo": "",
