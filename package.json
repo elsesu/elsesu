@@ -1,0 +1,46 @@
+{
+  "name": "ses-app",
+  "version": "1.0.0",
+  "description": "test-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heroku/node-js-getting-started.git"
+  },
+  "keywords": [
+    "start",
+    "heroku",
+    "express"
+  ],
+  "author": "sesu asa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heroku/node-js-getting-started/issues"
+  },
+  "homepage": "https://github.com/heroku/node-js-getting-started#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-ejs-layouts": "^2.5.1",
+    "joi": "^17.4.0",
+    "joi-objectid": "^3.0.1",
+    "mongoose": "^5.12.14",
+    "path": "^0.12.7",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "flag": "^4.4.0",
+    "got": "^11.8.2",
+    "tape": "^5.2.2"
+  }
+}
