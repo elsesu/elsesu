@@ -10,7 +10,7 @@ const customerRoutes = require('./routes/customer-routes');
 const PORT = process.env.PORT || 5000
 
 app = express()
-require('Procfile');
+require('Procfile')();
 require('./startup/config')();
 require('./startup/db')();
 //require('./startup/logging')();
