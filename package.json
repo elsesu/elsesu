@@ -4,12 +4,13 @@
   "description": "test-app",
   "main": "index.js",
   "scripts": {
-    "test": "start",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "start"
+    
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroku/node-js-getting-started.git"
+    "url": "https://github.com/elsesu/elsesu"
   },
   "keywords": [
     "start",
@@ -19,9 +20,9 @@
   "author": "sesu asa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/heroku/node-js-getting-started/issues"
+    "url": "https://github.com/elsesu/elsesu/issues"
   },
-  "homepage": "https://github.com/heroku/node-js-getting-started#readme",
+  "homepage": "https://github.com/elsesu/elsesu#readme",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "assert": "^2.0.0",
