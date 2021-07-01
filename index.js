@@ -17,9 +17,9 @@ const pool = new Pool({
 
 app = express()
 //require('./startup/config')();
-require('./startup/db')();
+require('./startup/db');
 //require('./startup/logging')();
-require('./startup/validations')();
+require('./startup/validations');
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
