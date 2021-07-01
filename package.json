@@ -2,6 +2,10 @@
   "name": "ses1-app",
   "version": "1.0.0",
   "description": "test-app",
+  "engines": {
+    "node": "16.1.0",
+    "npm": "7.13.0"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
