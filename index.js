@@ -24,9 +24,6 @@ app.use(customerRoutes.routes);
 app.use(expressLayoutes);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'))
-app.get('/', function(req, res){
-  res.redirect('index');
-});
 //app.use(express.urlencoded({extended:true}));
 app.listen(process.env.PORT || "5000", () => {
   console.log(`"Running on ${process.env.PORT || "5000"}!`)
