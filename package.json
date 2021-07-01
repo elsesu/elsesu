@@ -2,14 +2,12 @@
   "name": "ses1-app",
   "version": "1.0.0",
   "description": "test-app",
-  "engines": {
-    "node": "16.1.0",
-    "npm": "7.13.0"
-  },
+ 
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "repository": {
     "type": "git",
@@ -42,6 +40,10 @@
     "path": "^0.12.7",
     "pg": "^8.6.0",
     "winston": "^3.3.3"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
   },
   "devDependencies": {
     "flag": "^4.4.0",
